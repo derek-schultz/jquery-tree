@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Just a test</title>
+        <link rel="stylesheet" type="text/css" href="demo.css" />
+        <link rel="stylesheet" type="text/css" href="tree.css" />
+    </head>
+    <body>
+        <div id="content">
+            <ul id="sitemap">
+                <li>
+                    Home
+                </li>
+                <li>
+                    About
+                    <ul>
+                        <li>History</li>
+                        <li>
+                            Services
+                            <ul>
+                                <li>Service 1</li>
+                                <li>Service 2</li>
+                                <li>Service 3</li>
+                            </ul>
+                        </li>
+                        <li>Philosophy</li>
+                        <li>Support</li>
+                    </ul>
+                </li>
+                <li>FAQs</li>
+                <li>
+                    Contact
+                    <ul>
+                        <li>Hours</li>
+                        <li>Locations</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery-ui-modified.js"></script>
+        <script type="text/javascript" src="tree.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('div#content ul#sitemap').tree({'title':'Sitemap'});
+            });
+        </script>
+
+    </body>
+</html>

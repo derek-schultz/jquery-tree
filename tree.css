@@ -1,0 +1,62 @@
+div.one-tree-forest {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+div.one-tree-forest ul {
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    min-width: 75px;
+    height: 75px;
+    white-space: nowrap;
+    clear: both;
+    position: relative;
+    /*background-color: rgba(0, 0, 255, .1);*/
+    padding: 0px 14px;
+    margin: 100px 10px 0px 10px;
+    top: -100px;
+}
+
+div.one-tree-forest li {
+    position: relative;
+    display: block;
+    float: left;
+    white-space: nowrap;
+    margin: 20px 0px;
+    /*background-color: rgba(255, 0, 0, .1);*/
+}
+
+/**/ div.tree-node {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: solid 1px #000;
+    background-color: #DDD;
+    border-radius: 10px;
+    border: solid 1px black;
+    text-align: center;
+    line-height: 100px;
+}
+
+div.one-tree-forest li.tree-drop-zone div.tree-node {
+    background-color: #EEE;
+    border-radius: 5px;
+    border: dashed 4px #999;
+}
+
+div.one-tree-forest div.tree-line {
+    position: absolute;
+    background-color: #000;
+}
+
+div.one-tree-forest div.tree-node-top, div.one-tree-forest div.tree-node-bottom {
+    left: 50%;
+    width: 1px;
+}
+
+div.one-tree-forest div.tree-branch-horizontal {
+    height: 1px;
+}

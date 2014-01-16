@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    position: relative;
+}
+
+div#content {
+    position: relative;
+    top: 100px;
+}
+
+div#content h1 {
+    margin-top: 0.5em;
+}
+
+div#tools {
+    width: 400px;
+    height: 100px;
+    display: block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+div#tools div.tree-node {
+    float: left;
+    margin-right: 1em;
+}
